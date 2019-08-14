@@ -13,7 +13,7 @@ function getContentType(filename) {
     case 'jpeg':
     case 'jpg':
       return 'image/jpeg';
-    case 'unknown':
+    default:
       return 'text/plain';
   }
 }
